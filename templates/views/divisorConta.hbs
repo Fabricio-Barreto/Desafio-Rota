@@ -1,0 +1,40 @@
+{{>header}}
+
+    <div class="containerGeneral">
+        <div>
+            <div class="divInputPeople">
+                <input type="text" id="inputPeople" placeholder="Pessoa">
+                <div>
+                    <input type="checkbox" id="taxaServicoCheckbox" name="taxaServicoCheckbox">
+                    <label for="taxaServicoCheckbox">Taxa de Serviço</label>
+                </div>
+                <button type="submit" id="btnPeople" class="btnPeople">Adicionar pessoa</button>
+            </div>
+
+            <div class="divInputFood">
+                <input type="text" id="inputFood" placeholder="Comida">
+                <input type="number" id="inputFoodpreco" placeholder="Valor">
+                <button type="submit" id="btnFood">Adicionar Comida</button>
+            </div>
+
+            <button type="submit" id="btnGerar" class="btnGerar">Gerar tabela</button>
+
+
+            <div>
+                <div id="container"></div>
+                <button type="submit" id="btnCheckbox" name="btnCheckbox" class="btnCheckbox">Calcular</button>
+                <button type="submit" id="btnReset" name="btnReset" class="btnReset">Reset</button>
+            </div>
+
+            <div class="containerSection">
+                <div id="sectionPeople" class="sectionPeople"></div>
+
+                <div id="sectionFood" class="sectionFood"></div>
+            </div>
+        </div>
+    </div>
+
+
+        <script src="js/divisorConta.js"></script>
+        
+{{>footer}}

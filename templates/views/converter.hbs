@@ -1,0 +1,25 @@
+{{>header}}
+
+    <div class="container">
+      <label for="valorRomano">Escreva um número romano. </label>
+      <div class="inputRomano">
+        <input type="text" id="valorRomano" name="valorRomano">
+        <button id="btnConverterRomano">Converter</button>
+      </div>
+
+      <p class="resultado"><input type="text" id="resultadoArabico" disabled></p>
+    </div>
+
+    <div class="container">
+      <label for="valorInteiro">Escreva um número inteiro. </label>
+      <div class="inputInteiro">
+        <input type="number" id="valorInteiro" name="valorInteiro">
+        <button id="btnConverterInteiro">Converter</button>
+      </div>
+
+      <p class="resultadoInteiro"><input type="text" id="resultadoRomano" disabled></p>
+    </div>
+
+    <script src="js/converter.js"></script>
+
+{{>footer}}

@@ -1,0 +1,37 @@
+.containerSection {
+    display: flex;
+}
+
+.sectionFood {
+    margin-left: 20px;
+}
+
+.containerGeneral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.divInputPeople {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.btnPeople {
+    margin-left: 48px;
+}
+
+.divInputFood {
+    margin-bottom:10px;
+}
+
+.btnGerar {
+    margin: 10px;
+}
+
+.btnCheckbox {
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
